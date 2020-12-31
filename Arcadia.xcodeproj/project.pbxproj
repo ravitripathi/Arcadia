@@ -8,18 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		410E82952596315B00D4BFBF /* ArcadiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E82942596315B00D4BFBF /* ArcadiaApp.swift */; };
-		410E82972596315B00D4BFBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E82962596315B00D4BFBF /* ContentView.swift */; };
+		410E82972596315B00D4BFBF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E82962596315B00D4BFBF /* LandingView.swift */; };
 		410E82992596315C00D4BFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410E82982596315C00D4BFBF /* Assets.xcassets */; };
 		410E829C2596315C00D4BFBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410E829B2596315C00D4BFBF /* Preview Assets.xcassets */; };
+		411C3939259E5578009F8197 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C3938259E5578009F8197 /* GitBrowser.framework */; };
+		411C393A259E5578009F8197 /* GitBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 411C3938259E5578009F8197 /* GitBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		411C393B259E5578009F8197 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				411C393A259E5578009F8197 /* GitBrowser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		410E82912596315B00D4BFBF /* Arcadia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arcadia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410E82942596315B00D4BFBF /* ArcadiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadiaApp.swift; sourceTree = "<group>"; };
-		410E82962596315B00D4BFBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		410E82962596315B00D4BFBF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		410E82982596315C00D4BFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410E829B2596315C00D4BFBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		410E829D2596315C00D4BFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411C3939259E5578009F8197 /* GitBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +56,7 @@
 			children = (
 				410E82932596315B00D4BFBF /* Arcadia */,
 				410E82922596315B00D4BFBF /* Products */,
+				411C3937259E5578009F8197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				410E82942596315B00D4BFBF /* ArcadiaApp.swift */,
-				410E82962596315B00D4BFBF /* ContentView.swift */,
+				410E82962596315B00D4BFBF /* LandingView.swift */,
 				410E82982596315C00D4BFBF /* Assets.xcassets */,
 				410E829D2596315C00D4BFBF /* Info.plist */,
 				410E829A2596315C00D4BFBF /* Preview Content */,
@@ -69,6 +88,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		411C3937259E5578009F8197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				411C3938259E5578009F8197 /* GitBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,6 +106,7 @@
 				410E828D2596315B00D4BFBF /* Sources */,
 				410E828E2596315B00D4BFBF /* Frameworks */,
 				410E828F2596315B00D4BFBF /* Resources */,
+				411C393B259E5578009F8197 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410E82972596315B00D4BFBF /* ContentView.swift in Sources */,
+				410E82972596315B00D4BFBF /* LandingView.swift in Sources */,
 				410E82952596315B00D4BFBF /* ArcadiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +300,7 @@
 				DEVELOPMENT_TEAM = FABQJ9SY29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Arcadia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +322,7 @@
 				DEVELOPMENT_TEAM = FABQJ9SY29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Arcadia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,3 @@
+[submodule "GitBrowser"]
+	path = GitBrowser
+	url = https://github.com/ravitripathi/GitBrowser.git

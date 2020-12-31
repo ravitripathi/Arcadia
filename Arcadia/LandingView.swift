@@ -14,8 +14,7 @@ struct LandingView: View {
             List {
                     NavigationLink(
                         destination:
-                            GitBrowser.ContentView()
-                            .environmentObject(NetworkStore()),
+                            GitBrowser.ContentView().environmentObject(NetworkStore()),
                         label: {
                             Text("GitBrowser")
                         })
