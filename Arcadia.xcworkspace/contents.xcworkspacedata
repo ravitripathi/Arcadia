@@ -4,7 +4,4 @@
    <FileRef
       location = "group:Arcadia.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:GitBrowser/GitBrowser.xcodeproj">
-   </FileRef>
 </Workspace>

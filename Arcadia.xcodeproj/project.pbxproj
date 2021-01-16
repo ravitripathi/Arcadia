@@ -11,18 +11,97 @@
 		410E82972596315B00D4BFBF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E82962596315B00D4BFBF /* LandingView.swift */; };
 		410E82992596315C00D4BFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410E82982596315C00D4BFBF /* Assets.xcassets */; };
 		410E829C2596315C00D4BFBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410E829B2596315C00D4BFBF /* Preview Assets.xcassets */; };
-		411C3939259E5578009F8197 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C3938259E5578009F8197 /* GitBrowser.framework */; };
-		411C393A259E5578009F8197 /* GitBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 411C3938259E5578009F8197 /* GitBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41113B9D25B317B4005D6444 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113B9C25B317B4005D6444 /* WidgetKit.framework */; };
+		41113B9F25B317B4005D6444 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113B9E25B317B4005D6444 /* SwiftUI.framework */; };
+		41113BA225B317B4005D6444 /* ArcadiaWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA125B317B4005D6444 /* ArcadiaWidgets.swift */; };
+		41113BA525B317B5005D6444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41113BA425B317B5005D6444 /* Assets.xcassets */; };
+		41113BA725B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
+		41113BA825B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
+		41113BAB25B317B5005D6444 /* ArcadiaWidgetsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41113BB625B31DE8005D6444 /* ArcadiaWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41113BB125B31CEC005D6444 /* ArcadiaWidgetBundle.swift */; };
+		41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
+		41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		41113BA925B317B5005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410E82892596315B00D4BFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41113B9A25B317B4005D6444;
+			remoteInfo = ArcadiaWidgetsExtension;
+		};
+		41113C0D25B33872005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4148480224C33E1300720E7B;
+			remoteInfo = "GitBrowser (iOS)";
+		};
+		41113C0F25B33872005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4148480A24C33E1300720E7B;
+			remoteInfo = "GitBrowser (macOS)";
+		};
+		41113C1125B33872005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41C483D724CC98E3000515E9;
+			remoteInfo = GitBrowserWidgetExtension;
+		};
+		41113C1325B33872005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41A2394524E96593009FF1A8;
+			remoteInfo = WidgetIntentTarget;
+		};
+		41113C1525B33872005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41A2394E24E96593009FF1A8;
+			remoteInfo = WidgetIntentTargetUI;
+		};
+		41113C1725B33872005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 411C3907259E5531009F8197;
+			remoteInfo = GitBrowser;
+		};
+		41113C1925B33887005D6444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 411C3906259E5531009F8197;
+			remoteInfo = GitBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		411C393B259E5578009F8197 /* Embed Frameworks */ = {
+		41113BAC25B317B5005D6444 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				41113BAB25B317B5005D6444 /* ArcadiaWidgetsExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41113C2525B338BD005D6444 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				411C393A259E5578009F8197 /* GitBrowser.framework in Embed Frameworks */,
+				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,6 +115,16 @@
 		410E82982596315C00D4BFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410E829B2596315C00D4BFBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		410E829D2596315C00D4BFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArcadiaWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		41113B9C25B317B4005D6444 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		41113B9E25B317B4005D6444 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		41113BA125B317B4005D6444 /* ArcadiaWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadiaWidgets.swift; sourceTree = "<group>"; };
+		41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ArcadiaWidgets.intentdefinition; sourceTree = "<group>"; };
+		41113BA425B317B5005D6444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41113BA625B317B5005D6444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41113BB125B31CEC005D6444 /* ArcadiaWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadiaWidgetBundle.swift; sourceTree = "<group>"; };
+		41113C0425B33872005D6444 /* GitBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitBrowser.xcodeproj; path = GitBrowser/GitBrowser.xcodeproj; sourceTree = SOURCE_ROOT; };
+		41113C4425B33D1D005D6444 /* Arcadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcadia.entitlements; sourceTree = "<group>"; };
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,7 +133,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411C3939259E5578009F8197 /* GitBrowser.framework in Frameworks */,
+				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41113B9825B317B4005D6444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41113B9F25B317B4005D6444 /* SwiftUI.framework in Frameworks */,
+				41113B9D25B317B4005D6444 /* WidgetKit.framework in Frameworks */,
+				41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				410E82932596315B00D4BFBF /* Arcadia */,
+				41113BA025B317B4005D6444 /* ArcadiaWidgets */,
+				41113C0325B3386D005D6444 /* Submodules */,
 				410E82922596315B00D4BFBF /* Products */,
 				411C3937259E5578009F8197 /* Frameworks */,
 			);
@@ -64,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				410E82912596315B00D4BFBF /* Arcadia.app */,
+				41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +173,7 @@
 		410E82932596315B00D4BFBF /* Arcadia */ = {
 			isa = PBXGroup;
 			children = (
+				41113C4425B33D1D005D6444 /* Arcadia.entitlements */,
 				410E82942596315B00D4BFBF /* ArcadiaApp.swift */,
 				410E82962596315B00D4BFBF /* LandingView.swift */,
 				410E82982596315C00D4BFBF /* Assets.xcassets */,
@@ -88,10 +191,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		41113BA025B317B4005D6444 /* ArcadiaWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				41113BA125B317B4005D6444 /* ArcadiaWidgets.swift */,
+				41113BB125B31CEC005D6444 /* ArcadiaWidgetBundle.swift */,
+				41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */,
+				41113BA425B317B5005D6444 /* Assets.xcassets */,
+				41113BA625B317B5005D6444 /* Info.plist */,
+			);
+			path = ArcadiaWidgets;
+			sourceTree = "<group>";
+		};
+		41113C0325B3386D005D6444 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				41113C0425B33872005D6444 /* GitBrowser.xcodeproj */,
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		41113C0525B33872005D6444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41113C0E25B33872005D6444 /* GitBrowser.app */,
+				41113C1025B33872005D6444 /* GitBrowser.app */,
+				41113C1225B33872005D6444 /* GitBrowserWidgetExtension.appex */,
+				41113C1425B33872005D6444 /* WidgetIntentTarget.appex */,
+				41113C1625B33872005D6444 /* WidgetIntentTargetUI.appex */,
+				41113C1825B33872005D6444 /* GitBrowser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		411C3937259E5578009F8197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				411C3938259E5578009F8197 /* GitBrowser.framework */,
+				41113B9C25B317B4005D6444 /* WidgetKit.framework */,
+				41113B9E25B317B4005D6444 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,16 +244,36 @@
 				410E828D2596315B00D4BFBF /* Sources */,
 				410E828E2596315B00D4BFBF /* Frameworks */,
 				410E828F2596315B00D4BFBF /* Resources */,
-				411C393B259E5578009F8197 /* Embed Frameworks */,
+				41113BAC25B317B5005D6444 /* Embed App Extensions */,
+				41113C2525B338BD005D6444 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				41113C1A25B33887005D6444 /* PBXTargetDependency */,
+				41113BAA25B317B5005D6444 /* PBXTargetDependency */,
 			);
 			name = Arcadia;
 			productName = Arcadia;
 			productReference = 410E82912596315B00D4BFBF /* Arcadia.app */;
 			productType = "com.apple.product-type.application";
+		};
+		41113B9A25B317B4005D6444 /* ArcadiaWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41113BAF25B317B5005D6444 /* Build configuration list for PBXNativeTarget "ArcadiaWidgetsExtension" */;
+			buildPhases = (
+				41113B9725B317B4005D6444 /* Sources */,
+				41113B9825B317B4005D6444 /* Frameworks */,
+				41113B9925B317B4005D6444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcadiaWidgetsExtension;
+			productName = ArcadiaWidgetsExtension;
+			productReference = 41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -127,6 +285,9 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					410E82902596315B00D4BFBF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					41113B9A25B317B4005D6444 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -142,12 +303,64 @@
 			mainGroup = 410E82882596315B00D4BFBF;
 			productRefGroup = 410E82922596315B00D4BFBF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 41113C0525B33872005D6444 /* Products */;
+					ProjectRef = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				410E82902596315B00D4BFBF /* Arcadia */,
+				41113B9A25B317B4005D6444 /* ArcadiaWidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		41113C0E25B33872005D6444 /* GitBrowser.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GitBrowser.app;
+			remoteRef = 41113C0D25B33872005D6444 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41113C1025B33872005D6444 /* GitBrowser.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GitBrowser.app;
+			remoteRef = 41113C0F25B33872005D6444 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41113C1225B33872005D6444 /* GitBrowserWidgetExtension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = GitBrowserWidgetExtension.appex;
+			remoteRef = 41113C1125B33872005D6444 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41113C1425B33872005D6444 /* WidgetIntentTarget.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = WidgetIntentTarget.appex;
+			remoteRef = 41113C1325B33872005D6444 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41113C1625B33872005D6444 /* WidgetIntentTargetUI.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = WidgetIntentTargetUI.appex;
+			remoteRef = 41113C1525B33872005D6444 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41113C1825B33872005D6444 /* GitBrowser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GitBrowser.framework;
+			remoteRef = 41113C1725B33872005D6444 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		410E828F2596315B00D4BFBF /* Resources */ = {
@@ -159,6 +372,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41113B9925B317B4005D6444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41113BA525B317B5005D6444 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -166,12 +387,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41113BA825B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */,
 				410E82972596315B00D4BFBF /* LandingView.swift in Sources */,
 				410E82952596315B00D4BFBF /* ArcadiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41113B9725B317B4005D6444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41113BB625B31DE8005D6444 /* ArcadiaWidgetBundle.swift in Sources */,
+				41113BA725B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */,
+				41113BA225B317B4005D6444 /* ArcadiaWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41113BAA25B317B5005D6444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41113B9A25B317B4005D6444 /* ArcadiaWidgetsExtension */;
+			targetProxy = 41113BA925B317B5005D6444 /* PBXContainerItemProxy */;
+		};
+		41113C1A25B33887005D6444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GitBrowser;
+			targetProxy = 41113C1925B33887005D6444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		410E829E2596315C00D4BFBF /* Debug */ = {
@@ -293,8 +538,10 @@
 		410E82A12596315C00D4BFBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Arcadia/Arcadia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Arcadia/Preview Content\"";
 				DEVELOPMENT_TEAM = FABQJ9SY29;
@@ -315,8 +562,10 @@
 		410E82A22596315C00D4BFBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Arcadia/Arcadia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Arcadia/Preview Content\"";
 				DEVELOPMENT_TEAM = FABQJ9SY29;
@@ -329,6 +578,48 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41113BAD25B317B5005D6444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FABQJ9SY29;
+				INFOPLIST_FILE = ArcadiaWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia.ArcadiaWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41113BAE25B317B5005D6444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FABQJ9SY29;
+				INFOPLIST_FILE = ArcadiaWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia.ArcadiaWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,6 +642,15 @@
 			buildConfigurations = (
 				410E82A12596315C00D4BFBF /* Debug */,
 				410E82A22596315C00D4BFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41113BAF25B317B5005D6444 /* Build configuration list for PBXNativeTarget "ArcadiaWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41113BAD25B317B5005D6444 /* Debug */,
+				41113BAE25B317B5005D6444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
