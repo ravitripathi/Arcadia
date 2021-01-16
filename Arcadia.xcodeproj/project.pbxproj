@@ -13,7 +13,7 @@
 		410E829C2596315C00D4BFBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410E829B2596315C00D4BFBF /* Preview Assets.xcassets */; };
 		41113B9D25B317B4005D6444 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113B9C25B317B4005D6444 /* WidgetKit.framework */; };
 		41113B9F25B317B4005D6444 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113B9E25B317B4005D6444 /* SwiftUI.framework */; };
-		41113BA225B317B4005D6444 /* ArcadiaWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA125B317B4005D6444 /* ArcadiaWidgets.swift */; };
+		41113BA225B317B4005D6444 /* CertExpiryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA125B317B4005D6444 /* CertExpiryWidget.swift */; };
 		41113BA525B317B5005D6444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41113BA425B317B5005D6444 /* Assets.xcassets */; };
 		41113BA725B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
 		41113BA825B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
@@ -22,6 +22,10 @@
 		41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 		41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
+		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
+		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
+		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
+		41D75F3125B35801009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +122,7 @@
 		41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArcadiaWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		41113B9C25B317B4005D6444 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		41113B9E25B317B4005D6444 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		41113BA125B317B4005D6444 /* ArcadiaWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadiaWidgets.swift; sourceTree = "<group>"; };
+		41113BA125B317B4005D6444 /* CertExpiryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertExpiryWidget.swift; sourceTree = "<group>"; };
 		41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ArcadiaWidgets.intentdefinition; sourceTree = "<group>"; };
 		41113BA425B317B5005D6444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41113BA625B317B5005D6444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 		41113C0425B33872005D6444 /* GitBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitBrowser.xcodeproj; path = GitBrowser/GitBrowser.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41113C4425B33D1D005D6444 /* Arcadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcadia.entitlements; sourceTree = "<group>"; };
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,10 +181,12 @@
 			children = (
 				41113C4425B33D1D005D6444 /* Arcadia.entitlements */,
 				410E82942596315B00D4BFBF /* ArcadiaApp.swift */,
+				41D75F2325B35413009EB3E2 /* Storage.swift */,
 				410E82962596315B00D4BFBF /* LandingView.swift */,
 				410E82982596315C00D4BFBF /* Assets.xcassets */,
 				410E829D2596315C00D4BFBF /* Info.plist */,
 				410E829A2596315C00D4BFBF /* Preview Content */,
+				41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */,
 			);
 			path = Arcadia;
 			sourceTree = "<group>";
@@ -194,7 +202,7 @@
 		41113BA025B317B4005D6444 /* ArcadiaWidgets */ = {
 			isa = PBXGroup;
 			children = (
-				41113BA125B317B4005D6444 /* ArcadiaWidgets.swift */,
+				41113BA125B317B4005D6444 /* CertExpiryWidget.swift */,
 				41113BB125B31CEC005D6444 /* ArcadiaWidgetBundle.swift */,
 				41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */,
 				41113BA425B317B5005D6444 /* Assets.xcassets */,
@@ -388,6 +396,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41113BA825B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */,
+				41D75F2425B35413009EB3E2 /* Storage.swift in Sources */,
+				41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */,
 				410E82972596315B00D4BFBF /* LandingView.swift in Sources */,
 				410E82952596315B00D4BFBF /* ArcadiaApp.swift in Sources */,
 			);
@@ -398,8 +408,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				41113BB625B31DE8005D6444 /* ArcadiaWidgetBundle.swift in Sources */,
+				41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */,
 				41113BA725B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */,
-				41113BA225B317B4005D6444 /* ArcadiaWidgets.swift in Sources */,
+				41113BA225B317B4005D6444 /* CertExpiryWidget.swift in Sources */,
+				41D75F3125B35801009EB3E2 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

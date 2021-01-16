@@ -1,6 +1,6 @@
 //
-//  ArcadiaWidgets.swift
-//  ArcadiaWidgets
+//  CertExpiryWidget.swift
+//  CertExpiryWidget
 //
 //  Created by Ravi Tripathi on 16/01/21.
 //
@@ -57,8 +57,8 @@ struct ArcadiaWidgetsEntryView : View {
     }
 }
 
-struct ArcadiaWidgets: Widget {
-    let kind: String = "ArcadiaWidgets"
+struct CertExpiryWidget: Widget {
+    let kind: String = "CertExpiryWidget"
 
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: GitBrowserIntentIntent.self, provider: Provider()) { entry in

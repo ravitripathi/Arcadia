@@ -13,7 +13,7 @@ import GitBrowser
 struct ArcadiaWidgetBundle: WidgetBundle {
     @WidgetBundleBuilder
     var body: some Widget {
-        ArcadiaWidgets()
+        CertExpiryWidget()
         GitBrowserWidget()
     }
 }
