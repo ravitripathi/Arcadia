@@ -49,11 +49,40 @@ struct CertExpiryWidgetEntryView : View {
     var body: some View {
         VStack {
             if getNumberOfDaysRemaining() > 0 {
-                Text("\(getNumberOfDaysRemaining()) days remaining")
+                HStack {
+                    Text("\(getNumberOfDaysRemaining())")
+                        .foregroundColor(getColor())
+                        .font(.system(size: 45))
+                    VStack(alignment: .leading) {
+                        Text("days")
+                        Text("remaining")
+                    }
+                }
             } else {
-                Text("Certificate Expired")
+                VStack {
+                    Text("Certificate")
+                        .foregroundColor(.red)
+                        .font(.system(size: 18))
+                        .fontWeight(.bold)
+                    Text("Expired")
+                        .font(.system(size: 18))
+                        .fontWeight(.bold)
+                        .foregroundColor(.red)
+                }
             }
             Text("Last ran from Xcode on: \(getFormattedDate())")
+                .font(.system(size: 12))
+        }.padding()
+    }
+    
+    func getColor() -> Color {
+        let day = getNumberOfDaysRemaining()
+        if day >= 4 {
+            return Color.green
+        } else if day == 2 || day == 3 {
+            return Color.yellow
+        } else {
+            return Color.red
         }
     }
     
