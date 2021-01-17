@@ -22,6 +22,8 @@
 		41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 		41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
+		41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; };
+		41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
@@ -85,6 +87,27 @@
 			remoteGlobalIDString = 411C3906259E5531009F8197;
 			remoteInfo = GitBrowser;
 		};
+		41601D2E25B46F1200F77D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41601D1525B46D6000F77D4E;
+			remoteInfo = EyeTracker;
+		};
+		41601D4825B4713500F77D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 41601D3D25B4712B00F77D4E;
+			remoteInfo = EyeTracker;
+		};
+		41601D4B25B4713500F77D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41601D3E25B4712B00F77D4E;
+			remoteInfo = EyeTracker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +129,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
+				41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +154,7 @@
 		41113C0425B33872005D6444 /* GitBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitBrowser.xcodeproj; path = GitBrowser/GitBrowser.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41113C4425B33D1D005D6444 /* Arcadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcadia.entitlements; sourceTree = "<group>"; };
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EyeTracker.xcodeproj; path = EyeTracker/EyeTracker/EyeTracker.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
+				41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +240,7 @@
 		41113C0325B3386D005D6444 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
+				41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */,
 				41113C0425B33872005D6444 /* GitBrowser.xcodeproj */,
 			);
 			path = Submodules;
@@ -242,6 +269,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		41601D2B25B46F1200F77D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41601D2F25B46F1200F77D4E /* EyeTracker.app */,
+				41601D4C25B4713500F77D4E /* EyeTracker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,6 +294,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				41601D4925B4713500F77D4E /* PBXTargetDependency */,
 				41113C1A25B33887005D6444 /* PBXTargetDependency */,
 				41113BAA25B317B5005D6444 /* PBXTargetDependency */,
 			);
@@ -313,6 +350,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 41601D2B25B46F1200F77D4E /* Products */;
+					ProjectRef = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
+				},
+				{
 					ProductGroup = 41113C0525B33872005D6444 /* Products */;
 					ProjectRef = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
 				},
@@ -366,6 +407,20 @@
 			fileType = wrapper.framework;
 			path = GitBrowser.framework;
 			remoteRef = 41113C1725B33872005D6444 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41601D2F25B46F1200F77D4E /* EyeTracker.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EyeTracker.app;
+			remoteRef = 41601D2E25B46F1200F77D4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41601D4C25B4713500F77D4E /* EyeTracker.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EyeTracker.framework;
+			remoteRef = 41601D4B25B4713500F77D4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -427,6 +482,11 @@
 			isa = PBXTargetDependency;
 			name = GitBrowser;
 			targetProxy = 41113C1925B33887005D6444 /* PBXContainerItemProxy */;
+		};
+		41601D4925B4713500F77D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EyeTracker;
+			targetProxy = 41601D4825B4713500F77D4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
