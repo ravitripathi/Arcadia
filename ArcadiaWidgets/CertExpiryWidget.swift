@@ -92,8 +92,12 @@ struct CertExpiryWidgetEntryView : View {
         dateComponent.day = 7
         let expiryDate = Calendar.current.date(byAdding: dateComponent, to: lastRunDate)!
         let currentDate = entry.date
-        let difference = Calendar.current.dateComponents([.day], from: currentDate, to: expiryDate)
-        return difference.day ?? 0
+        if expiryDate > currentDate {
+            let difference = Calendar.current.dateComponents([.day], from: currentDate, to: expiryDate)
+            return difference.day ?? 0
+        } else {
+            return 0
+        }
     }
     
     func getFormattedDate() -> String {
