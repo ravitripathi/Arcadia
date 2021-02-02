@@ -1,6 +1,3 @@
 [submodule "GitBrowser"]
 	path = GitBrowser
 	url = https://github.com/ravitripathi/GitBrowser.git
-[submodule "EyeTracker"]
-	path = EyeTracker
-	url = https://github.com/ravitripathi/EyeTracker.git
