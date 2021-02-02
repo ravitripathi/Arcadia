@@ -8,6 +8,7 @@
 import SwiftUI
 import GitBrowser
 import EyeTracker
+import FLEX
 
 struct LandingView: View {
     var body: some View {
@@ -26,7 +27,17 @@ struct LandingView: View {
                         Text("EyeTracker")
                     })
                 
-            }.navigationBarTitle(Text("Arcadia"))
+            }.navigationBarTitleDisplayMode(.automatic)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    HStack {
+                        Text("Arcadia")
+                        Button("Launch Flex") {
+                            FLEXManager.shared.showExplorer()
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,8 @@
 		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 		41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; };
 		41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4192D3E825C93A6700946C10 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; };
+		4192D3E925C93A6700946C10 /* FLEX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
@@ -130,6 +132,7 @@
 			files = (
 				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
 				41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */,
+				4192D3E925C93A6700946C10 /* FLEX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +158,7 @@
 		41113C4425B33D1D005D6444 /* Arcadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcadia.entitlements; sourceTree = "<group>"; };
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EyeTracker.xcodeproj; path = EyeTracker/EyeTracker/EyeTracker.xcodeproj; sourceTree = SOURCE_ROOT; };
+		4192D3E125C93A6700946C10 /* FLEX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FLEX.xcframework; path = Carthage/Build/FLEX.xcframework; sourceTree = "<group>"; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +170,7 @@
 			files = (
 				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
 				41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */,
+				4192D3E825C93A6700946C10 /* FLEX.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +267,7 @@
 		411C3937259E5578009F8197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4192D3E125C93A6700946C10 /* FLEX.xcframework */,
 				411C3938259E5578009F8197 /* GitBrowser.framework */,
 				41113B9C25B317B4005D6444 /* WidgetKit.framework */,
 				41113B9E25B317B4005D6444 /* SwiftUI.framework */,
@@ -272,7 +278,7 @@
 		41601D2B25B46F1200F77D4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41601D2F25B46F1200F77D4E /* EyeTracker.app */,
+				41601D2F25B46F1200F77D4E /* EyeTrackerApp.app */,
 				41601D4C25B4713500F77D4E /* EyeTracker.framework */,
 			);
 			name = Products;
@@ -409,10 +415,10 @@
 			remoteRef = 41113C1725B33872005D6444 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		41601D2F25B46F1200F77D4E /* EyeTracker.app */ = {
+		41601D2F25B46F1200F77D4E /* EyeTrackerApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = EyeTracker.app;
+			path = EyeTrackerApp.app;
 			remoteRef = 41601D2E25B46F1200F77D4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
