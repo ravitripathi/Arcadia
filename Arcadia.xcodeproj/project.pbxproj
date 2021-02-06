@@ -26,6 +26,8 @@
 		41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4192D3E825C93A6700946C10 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; };
 		4192D3E925C93A6700946C10 /* FLEX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; };
+		41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
@@ -110,6 +112,27 @@
 			remoteGlobalIDString = 41601D3E25B4712B00F77D4E;
 			remoteInfo = EyeTracker;
 		};
+		41ACD64925CE99F900555627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4177C7C725C580A000AEB31A;
+			remoteInfo = AppStoreCard;
+		};
+		41ACD67025CE9AAE00555627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41ACD65A25CE9A5200555627;
+			remoteInfo = AppStoreCard;
+		};
+		41ACD67625CE9ADD00555627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 41ACD65925CE9A5200555627;
+			remoteInfo = AppStoreCard;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -132,6 +155,7 @@
 			files = (
 				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
 				41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */,
+				41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */,
 				4192D3E925C93A6700946C10 /* FLEX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -159,6 +183,7 @@
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EyeTracker.xcodeproj; path = EyeTracker/EyeTracker/EyeTracker.xcodeproj; sourceTree = SOURCE_ROOT; };
 		4192D3E125C93A6700946C10 /* FLEX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FLEX.xcframework; path = Carthage/Build/FLEX.xcframework; sourceTree = "<group>"; };
+		41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppStoreCard.xcodeproj; path = AppStoreCard/AppStoreCard/AppStoreCard.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +195,7 @@
 			files = (
 				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
 				41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */,
+				41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */,
 				4192D3E825C93A6700946C10 /* FLEX.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +271,7 @@
 		41113C0325B3386D005D6444 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
+				41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */,
 				41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */,
 				41113C0425B33872005D6444 /* GitBrowser.xcodeproj */,
 			);
@@ -284,6 +311,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		41ACD64625CE99F900555627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41ACD64A25CE99F900555627 /* AppStoreCard.app */,
+				41ACD67125CE9AAE00555627 /* AppStoreCard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +336,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				41ACD67725CE9ADD00555627 /* PBXTargetDependency */,
 				41601D4925B4713500F77D4E /* PBXTargetDependency */,
 				41113C1A25B33887005D6444 /* PBXTargetDependency */,
 				41113BAA25B317B5005D6444 /* PBXTargetDependency */,
@@ -355,6 +392,10 @@
 			productRefGroup = 410E82922596315B00D4BFBF /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 41ACD64625CE99F900555627 /* Products */;
+					ProjectRef = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
+				},
 				{
 					ProductGroup = 41601D2B25B46F1200F77D4E /* Products */;
 					ProjectRef = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
@@ -429,6 +470,20 @@
 			remoteRef = 41601D4B25B4713500F77D4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		41ACD64A25CE99F900555627 /* AppStoreCard.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AppStoreCard.app;
+			remoteRef = 41ACD64925CE99F900555627 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41ACD67125CE9AAE00555627 /* AppStoreCard.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppStoreCard.framework;
+			remoteRef = 41ACD67025CE9AAE00555627 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -493,6 +548,11 @@
 			isa = PBXTargetDependency;
 			name = EyeTracker;
 			targetProxy = 41601D4825B4713500F77D4E /* PBXContainerItemProxy */;
+		};
+		41ACD67725CE9ADD00555627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppStoreCard;
+			targetProxy = 41ACD67625CE9ADD00555627 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

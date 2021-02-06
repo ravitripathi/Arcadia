@@ -4,3 +4,6 @@
 [submodule "EyeTracker"]
 	path = EyeTracker
 	url = https://github.com/ravitripathi/EyeTracker.git
+[submodule "AppStoreCard"]
+	path = AppStoreCard
+	url = https://github.com/ravitripathi/AppStoreCard.git

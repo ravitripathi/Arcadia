@@ -9,6 +9,7 @@ import SwiftUI
 import GitBrowser
 import EyeTracker
 import FLEX
+import AppStoreCard
 
 struct LandingView: View {
     var body: some View {
@@ -26,7 +27,12 @@ struct LandingView: View {
                     label: {
                         Text("EyeTracker")
                     })
-                
+                NavigationLink(
+                    destination:
+                        AppStoreCard.AppStoreCardView(),
+                    label: {
+                        Text("App Store Card")
+                    })
             }.navigationBarTitleDisplayMode(.automatic)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
