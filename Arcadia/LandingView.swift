@@ -8,42 +8,41 @@
 import SwiftUI
 import GitBrowser
 import EyeTracker
-import FLEX
 import AppStoreCard
+import FLEX
 
 struct LandingView: View {
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink(
-                    destination:
-                        GitBrowser.ContentView().environmentObject(NetworkStore()),
-                    label: {
-                        Text("GitBrowser")
-                    })
-                NavigationLink(
-                    destination:
-                        EyeTracker.EyeTrackerView(),
-                    label: {
-                        Text("EyeTracker")
-                    })
-                NavigationLink(
-                    destination:
-                        AppStoreCard.AppStoreCardView(),
-                    label: {
-                        Text("App Store Card")
-                    })
-            }.navigationBarTitleDisplayMode(.automatic)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    HStack {
-                        Text("Arcadia")
-                        Button("Launch Flex") {
-                            FLEXManager.shared.showExplorer()
-                        }
-                    }
+            VStack(alignment: .center) {
+                List {
+                    NavigationLink(
+                        destination:
+                            GitBrowser.ContentView().environmentObject(NetworkStore()),
+                        label: {
+                            Text("GitBrowser")
+                        })
+                    NavigationLink(
+                        destination:
+                            EyeTracker.EyeTrackerView(),
+                        label: {
+                            Text("EyeTracker")
+                        })
+                    NavigationLink(
+                        destination:
+                            AppStoreCard.CardListView(),
+                        label: {
+                            Text("Card List Views")
+                        })
+                }
+                .listStyle(InsetGroupedListStyle())
+                Button("Launch Flex") {
+                    FLEXManager.shared.showExplorer()
                 }
             }
+            .navigationBarTitleDisplayMode(.large)
+            .lineSpacing(0.0)
+            .navigationTitle("Arcadia")
         }
     }
 }

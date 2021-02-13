@@ -22,10 +22,10 @@
 		41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 		41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
+		412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; };
+		412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; };
 		41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4192D3E825C93A6700946C10 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; };
-		4192D3E925C93A6700946C10 /* FLEX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; };
 		41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
@@ -155,8 +155,8 @@
 			files = (
 				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
 				41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */,
+				412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */,
 				41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */,
-				4192D3E925C93A6700946C10 /* FLEX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +184,7 @@
 		41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EyeTracker.xcodeproj; path = EyeTracker/EyeTracker/EyeTracker.xcodeproj; sourceTree = SOURCE_ROOT; };
 		4192D3E125C93A6700946C10 /* FLEX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FLEX.xcframework; path = Carthage/Build/FLEX.xcframework; sourceTree = "<group>"; };
 		41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppStoreCard.xcodeproj; path = AppStoreCard/AppStoreCard/AppStoreCard.xcodeproj; sourceTree = SOURCE_ROOT; };
+		41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,8 +196,8 @@
 			files = (
 				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
 				41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */,
+				412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */,
 				41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */,
-				4192D3E825C93A6700946C10 /* FLEX.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +217,7 @@
 		410E82882596315B00D4BFBF = {
 			isa = PBXGroup;
 			children = (
+				41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */,
 				410E82932596315B00D4BFBF /* Arcadia */,
 				41113BA025B317B4005D6444 /* ArcadiaWidgets */,
 				41113C0325B3386D005D6444 /* Submodules */,
@@ -314,7 +316,7 @@
 		41ACD64625CE99F900555627 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41ACD64A25CE99F900555627 /* AppStoreCard.app */,
+				41ACD64A25CE99F900555627 /* AppStoreCardApp.app */,
 				41ACD67125CE9AAE00555627 /* AppStoreCard.framework */,
 			);
 			name = Products;
@@ -470,10 +472,10 @@
 			remoteRef = 41601D4B25B4713500F77D4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		41ACD64A25CE99F900555627 /* AppStoreCard.app */ = {
+		41ACD64A25CE99F900555627 /* AppStoreCardApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = AppStoreCard.app;
+			path = AppStoreCardApp.app;
 			remoteRef = 41ACD64925CE99F900555627 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -692,8 +694,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -716,8 +719,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -726,6 +730,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ArcadiaWidgetsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FABQJ9SY29;
 				INFOPLIST_FILE = ArcadiaWidgets/Info.plist;
@@ -737,6 +742,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia.ArcadiaWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -747,6 +753,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ArcadiaWidgetsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FABQJ9SY29;
 				INFOPLIST_FILE = ArcadiaWidgets/Info.plist;
@@ -758,6 +765,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia.ArcadiaWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
