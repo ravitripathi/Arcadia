@@ -24,7 +24,7 @@
 	<string>This app uses camera to detect your face for auto-scrolling feature.</string>
 	<key>NSUserActivityTypes</key>
 	<array>
-		<string>GitBrowserIntentIntent</string>
+		<string>GitBrowserIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

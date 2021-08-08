@@ -31,7 +31,7 @@ struct MediumWidget: View {
                 Text("@\(user.login ?? "")")
                     .font(.title2)
                 Text("Followers: \(user.followers ?? 0)")
-                Text("Followers: \(user.following ?? 0)")
+                Text("Following: \(user.following ?? 0)")
                 HStack {
                     Image(systemName: "location.fill")
                     Text("\(user.location ?? "Unknown")")

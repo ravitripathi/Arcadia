@@ -30,9 +30,9 @@ struct GitBrowserIntentTimelineProvider: IntentTimelineProvider {
     
     typealias Entry = GithubUserEntry
     
-    typealias Intent = GitBrowserIntentIntent
+    typealias Intent = GitBrowserIntent
     
-    func getSnapshot(for configuration: GitBrowserIntentIntent, in context: Context, completion: @escaping (GithubUserEntry) -> Void) {
+    func getSnapshot(for configuration: GitBrowserIntent, in context: Context, completion: @escaping (GithubUserEntry) -> Void) {
         let user = User()
         user.name = "Here's one dummy user"
         user.login = "@userloginhere"
@@ -41,7 +41,7 @@ struct GitBrowserIntentTimelineProvider: IntentTimelineProvider {
         completion(entry)
     }
     
-    func getTimeline(for configuration: GitBrowserIntentIntent, in context: Context, completion: @escaping (Timeline<GithubUserEntry>) -> Void) {
+    func getTimeline(for configuration: GitBrowserIntent, in context: Context, completion: @escaping (Timeline<GithubUserEntry>) -> Void) {
         
         var username = AppData.lastCurrentUsername
         if let u = configuration.username, !u.isEmpty {
@@ -97,7 +97,7 @@ public struct GitBrowserWidget: Widget {
     
     public var body: some WidgetConfiguration {
         
-        IntentConfiguration(kind: kind, intent: GitBrowserIntentIntent.self, provider: GitBrowserIntentTimelineProvider()) { entry in
+        IntentConfiguration(kind: kind, intent: GitBrowserIntent.self, provider: GitBrowserIntentTimelineProvider()) { entry in
             WidgetEntryView(entry: entry)
         }.supportedFamilies([.systemMedium])
         .configurationDisplayName("GitBrowser")

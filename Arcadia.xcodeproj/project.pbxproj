@@ -24,6 +24,17 @@
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F3125B35801009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
+		527DAA8926C026210010693E /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527DAA3B26C01A3F0010693E /* Intents.framework */; };
+		527DAA8C26C026210010693E /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DAA8B26C026210010693E /* IntentHandler.swift */; };
+		527DAA9326C026220010693E /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527DAA4626C01A3F0010693E /* IntentsUI.framework */; };
+		527DAA9626C026220010693E /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DAA9526C026220010693E /* IntentViewController.swift */; };
+		527DAA9926C026220010693E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DAA9726C026220010693E /* MainInterface.storyboard */; };
+		527DAA9D26C026220010693E /* ArcadiaWidgetIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 527DAA9226C026220010693E /* ArcadiaWidgetIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		527DAAA126C026220010693E /* ArcadiaWidgetIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 527DAA8826C026210010693E /* ArcadiaWidgetIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		527DAAA926C044F20010693E /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
+		527DAAAB26C045840010693E /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DAA8B26C026210010693E /* IntentHandler.swift */; };
+		527DAAAC26C045850010693E /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DAA8B26C026210010693E /* IntentHandler.swift */; };
+		527DAAAD26C0463E0010693E /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
 		528920B526C00F7900FB116C /* GitBrowserWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528920B426C00F7900FB116C /* GitBrowserWidget.swift */; };
 		528920B726C00F8500FB116C /* MediumWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528920B626C00F8500FB116C /* MediumWidget.swift */; };
 		528920BC26C0107D00FB116C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 528920BB26C0107D00FB116C /* Kingfisher */; };
@@ -42,6 +53,20 @@
 			remoteGlobalIDString = 41113B9A25B317B4005D6444;
 			remoteInfo = ArcadiaWidgetsExtension;
 		};
+		527DAA9B26C026220010693E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410E82892596315B00D4BFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527DAA9126C026220010693E;
+			remoteInfo = ArcadiaWidgetIntentUI;
+		};
+		527DAA9F26C026220010693E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410E82892596315B00D4BFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527DAA8726C026210010693E;
+			remoteInfo = ArcadiaWidgetIntent;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +76,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				527DAA9D26C026220010693E /* ArcadiaWidgetIntentUI.appex in Embed App Extensions */,
+				527DAAA126C026220010693E /* ArcadiaWidgetIntent.appex in Embed App Extensions */,
 				41113BAB25B317B5005D6444 /* ArcadiaWidgetsExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -90,6 +117,17 @@
 		41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
+		527DAA3B26C01A3F0010693E /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		527DAA4626C01A3F0010693E /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		527DAA8826C026210010693E /* ArcadiaWidgetIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArcadiaWidgetIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		527DAA8B26C026210010693E /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		527DAA8D26C026210010693E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527DAA9226C026220010693E /* ArcadiaWidgetIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArcadiaWidgetIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		527DAA9526C026220010693E /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		527DAA9826C026220010693E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		527DAA9A26C026220010693E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527DAA9E26C026220010693E /* ArcadiaWidgetIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetIntentUI.entitlements; sourceTree = "<group>"; };
+		527DAAA226C026220010693E /* ArcadiaWidgetIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetIntent.entitlements; sourceTree = "<group>"; };
 		528920B426C00F7900FB116C /* GitBrowserWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitBrowserWidget.swift; sourceTree = "<group>"; };
 		528920B626C00F8500FB116C /* MediumWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumWidget.swift; sourceTree = "<group>"; };
 		528920C226C0128900FB116C /* AppStoreCard */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppStoreCard; path = AppStoreCard/AppStoreCard; sourceTree = "<group>"; };
@@ -121,6 +159,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		527DAA8526C026210010693E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527DAA8926C026210010693E /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527DAA8F26C026220010693E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527DAA9326C026220010693E /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -131,6 +185,8 @@
 				41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */,
 				410E82932596315B00D4BFBF /* Arcadia */,
 				41113BA025B317B4005D6444 /* ArcadiaWidgets */,
+				527DAA8A26C026210010693E /* ArcadiaWidgetIntent */,
+				527DAA9426C026220010693E /* ArcadiaWidgetIntentUI */,
 				410E82922596315B00D4BFBF /* Products */,
 				411C3937259E5578009F8197 /* Frameworks */,
 			);
@@ -141,6 +197,8 @@
 			children = (
 				410E82912596315B00D4BFBF /* Arcadia.app */,
 				41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */,
+				527DAA8826C026210010693E /* ArcadiaWidgetIntent.appex */,
+				527DAA9226C026220010693E /* ArcadiaWidgetIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,8 +247,31 @@
 				411C3938259E5578009F8197 /* GitBrowser.framework */,
 				41113B9C25B317B4005D6444 /* WidgetKit.framework */,
 				41113B9E25B317B4005D6444 /* SwiftUI.framework */,
+				527DAA3B26C01A3F0010693E /* Intents.framework */,
+				527DAA4626C01A3F0010693E /* IntentsUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527DAA8A26C026210010693E /* ArcadiaWidgetIntent */ = {
+			isa = PBXGroup;
+			children = (
+				527DAAA226C026220010693E /* ArcadiaWidgetIntent.entitlements */,
+				527DAA8B26C026210010693E /* IntentHandler.swift */,
+				527DAA8D26C026210010693E /* Info.plist */,
+			);
+			path = ArcadiaWidgetIntent;
+			sourceTree = "<group>";
+		};
+		527DAA9426C026220010693E /* ArcadiaWidgetIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				527DAA9E26C026220010693E /* ArcadiaWidgetIntentUI.entitlements */,
+				527DAA9526C026220010693E /* IntentViewController.swift */,
+				527DAA9726C026220010693E /* MainInterface.storyboard */,
+				527DAA9A26C026220010693E /* Info.plist */,
+			);
+			path = ArcadiaWidgetIntentUI;
 			sourceTree = "<group>";
 		};
 		528920C126C0127500FB116C /* Packages */ = {
@@ -220,6 +301,8 @@
 			);
 			dependencies = (
 				41113BAA25B317B5005D6444 /* PBXTargetDependency */,
+				527DAA9C26C026220010693E /* PBXTargetDependency */,
+				527DAAA026C026220010693E /* PBXTargetDependency */,
 			);
 			name = Arcadia;
 			packageProductDependencies = (
@@ -253,13 +336,47 @@
 			productReference = 41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		527DAA8726C026210010693E /* ArcadiaWidgetIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527DAAA626C026220010693E /* Build configuration list for PBXNativeTarget "ArcadiaWidgetIntent" */;
+			buildPhases = (
+				527DAA8426C026210010693E /* Sources */,
+				527DAA8526C026210010693E /* Frameworks */,
+				527DAA8626C026210010693E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcadiaWidgetIntent;
+			productName = ArcadiaWidgetIntent;
+			productReference = 527DAA8826C026210010693E /* ArcadiaWidgetIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		527DAA9126C026220010693E /* ArcadiaWidgetIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527DAAA326C026220010693E /* Build configuration list for PBXNativeTarget "ArcadiaWidgetIntentUI" */;
+			buildPhases = (
+				527DAA8E26C026220010693E /* Sources */,
+				527DAA8F26C026220010693E /* Frameworks */,
+				527DAA9026C026220010693E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcadiaWidgetIntentUI;
+			productName = ArcadiaWidgetIntentUI;
+			productReference = 527DAA9226C026220010693E /* ArcadiaWidgetIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		410E82892596315B00D4BFBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					410E82902596315B00D4BFBF = {
@@ -267,6 +384,12 @@
 					};
 					41113B9A25B317B4005D6444 = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					527DAA8726C026210010693E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					527DAA9126C026220010693E = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
@@ -288,6 +411,8 @@
 			targets = (
 				410E82902596315B00D4BFBF /* Arcadia */,
 				41113B9A25B317B4005D6444 /* ArcadiaWidgetsExtension */,
+				527DAA8726C026210010693E /* ArcadiaWidgetIntent */,
+				527DAA9126C026220010693E /* ArcadiaWidgetIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -310,6 +435,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		527DAA8626C026210010693E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527DAA9026C026220010693E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527DAA9926C026220010693E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -318,8 +458,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D75F2425B35413009EB3E2 /* Storage.swift in Sources */,
+				527DAAA926C044F20010693E /* ArcadiaWidgets.intentdefinition in Sources */,
 				41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */,
 				410E82972596315B00D4BFBF /* LandingView.swift in Sources */,
+				527DAAAC26C045850010693E /* IntentHandler.swift in Sources */,
 				410E82952596315B00D4BFBF /* ArcadiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +476,25 @@
 				41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */,
 				41113BA725B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */,
 				41113BA225B317B4005D6444 /* CertExpiryWidget.swift in Sources */,
+				527DAAAB26C045840010693E /* IntentHandler.swift in Sources */,
 				41D75F3125B35801009EB3E2 /* Storage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527DAA8426C026210010693E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527DAAAD26C0463E0010693E /* ArcadiaWidgets.intentdefinition in Sources */,
+				527DAA8C26C026210010693E /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527DAA8E26C026220010693E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527DAA9626C026220010693E /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +506,28 @@
 			target = 41113B9A25B317B4005D6444 /* ArcadiaWidgetsExtension */;
 			targetProxy = 41113BA925B317B5005D6444 /* PBXContainerItemProxy */;
 		};
+		527DAA9C26C026220010693E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527DAA9126C026220010693E /* ArcadiaWidgetIntentUI */;
+			targetProxy = 527DAA9B26C026220010693E /* PBXContainerItemProxy */;
+		};
+		527DAAA026C026220010693E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527DAA8726C026210010693E /* ArcadiaWidgetIntent */;
+			targetProxy = 527DAA9F26C026220010693E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527DAA9726C026220010693E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527DAA9826C026220010693E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		410E829E2596315C00D4BFBF /* Debug */ = {
@@ -482,7 +663,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,7 +688,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -529,7 +710,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia.ArcadiaWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1.ArcadiaWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -552,7 +733,95 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia.ArcadiaWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1.ArcadiaWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		527DAAA426C026220010693E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArcadiaWidgetIntentUI/ArcadiaWidgetIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FABQJ9SY29;
+				INFOPLIST_FILE = ArcadiaWidgetIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1.ArcadiaWidgetIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527DAAA526C026220010693E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArcadiaWidgetIntentUI/ArcadiaWidgetIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FABQJ9SY29;
+				INFOPLIST_FILE = ArcadiaWidgetIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1.ArcadiaWidgetIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		527DAAA726C026220010693E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArcadiaWidgetIntent/ArcadiaWidgetIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FABQJ9SY29;
+				INFOPLIST_FILE = ArcadiaWidgetIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1.ArcadiaWidgetIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527DAAA826C026220010693E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArcadiaWidgetIntent/ArcadiaWidgetIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FABQJ9SY29;
+				INFOPLIST_FILE = ArcadiaWidgetIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ravitripathi.Arcadia1.ArcadiaWidgetIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -587,6 +856,24 @@
 			buildConfigurations = (
 				41113BAD25B317B5005D6444 /* Debug */,
 				41113BAE25B317B5005D6444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527DAAA326C026220010693E /* Build configuration list for PBXNativeTarget "ArcadiaWidgetIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527DAAA426C026220010693E /* Debug */,
+				527DAAA526C026220010693E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527DAAA626C026220010693E /* Build configuration list for PBXNativeTarget "ArcadiaWidgetIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527DAAA726C026220010693E /* Debug */,
+				527DAAA826C026220010693E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,7 +12,7 @@ import Intents
 
 struct CertExpiryWidgetProvider: TimelineProvider {
     typealias Entry = SimpleEntry
-    typealias Intent = GitBrowserIntentIntent
+    typealias Intent = GitBrowserIntent
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> Void) {
         let entry = Entry(date: Date())

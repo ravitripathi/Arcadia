@@ -9,11 +9,11 @@
 	<key>INIntentDefinitionNamespace</key>
 	<string>88xZPY</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>19H15</string>
+	<string>20G80</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>12C33</string>
+	<string>12E507</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>12.3</string>
+	<string>12.5.1</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -28,7 +28,7 @@
 			<key>INIntentLastParameterTag</key>
 			<integer>1</integer>
 			<key>INIntentName</key>
-			<string>GitBrowserIntent</string>
+			<string>GitBrowser</string>
 			<key>INIntentParameters</key>
 			<array>
 				<dict>
@@ -93,7 +93,7 @@
 				</array>
 			</dict>
 			<key>INIntentTitle</key>
-			<string>Git Browser Intent</string>
+			<string>Git Browser</string>
 			<key>INIntentTitleID</key>
 			<string>HPSH8D</string>
 			<key>INIntentType</key>
