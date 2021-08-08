@@ -16,20 +16,22 @@
 		41113BA225B317B4005D6444 /* CertExpiryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA125B317B4005D6444 /* CertExpiryWidget.swift */; };
 		41113BA525B317B5005D6444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41113BA425B317B5005D6444 /* Assets.xcassets */; };
 		41113BA725B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
-		41113BA825B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */; };
 		41113BAB25B317B5005D6444 /* ArcadiaWidgetsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		41113BB625B31DE8005D6444 /* ArcadiaWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41113BB125B31CEC005D6444 /* ArcadiaWidgetBundle.swift */; };
-		41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
-		41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 		412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; };
 		412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F3125B35801009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
-		526B0D6E26C006A600925709 /* AppStoreCard in Frameworks */ = {isa = PBXBuildFile; productRef = 526B0D6D26C006A600925709 /* AppStoreCard */; };
-		52AE308926C0017E00DEC508 /* EyeTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 52AE308826C0017E00DEC508 /* EyeTracker */; };
+		528920B526C00F7900FB116C /* GitBrowserWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528920B426C00F7900FB116C /* GitBrowserWidget.swift */; };
+		528920B726C00F8500FB116C /* MediumWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528920B626C00F8500FB116C /* MediumWidget.swift */; };
+		528920BC26C0107D00FB116C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 528920BB26C0107D00FB116C /* Kingfisher */; };
+		528920BE26C0109700FB116C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 528920BD26C0109700FB116C /* Kingfisher */; };
+		528920C626C012B000FB116C /* AppStoreCard in Frameworks */ = {isa = PBXBuildFile; productRef = 528920C526C012B000FB116C /* AppStoreCard */; };
+		528920C826C012B000FB116C /* EyeTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 528920C726C012B000FB116C /* EyeTracker */; };
+		528920CA26C012B000FB116C /* GitBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 528920C926C012B000FB116C /* GitBrowser */; };
+		528920CC26C012BA00FB116C /* GitBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 528920CB26C012BA00FB116C /* GitBrowser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,69 +41,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 41113B9A25B317B4005D6444;
 			remoteInfo = ArcadiaWidgetsExtension;
-		};
-		41113C0D25B33872005D6444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4148480224C33E1300720E7B;
-			remoteInfo = "GitBrowser (iOS)";
-		};
-		41113C0F25B33872005D6444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4148480A24C33E1300720E7B;
-			remoteInfo = "GitBrowser (macOS)";
-		};
-		41113C1125B33872005D6444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 41C483D724CC98E3000515E9;
-			remoteInfo = GitBrowserWidgetExtension;
-		};
-		41113C1325B33872005D6444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 41A2394524E96593009FF1A8;
-			remoteInfo = WidgetIntentTarget;
-		};
-		41113C1525B33872005D6444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 41A2394E24E96593009FF1A8;
-			remoteInfo = WidgetIntentTargetUI;
-		};
-		41113C1725B33872005D6444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 411C3907259E5531009F8197;
-			remoteInfo = GitBrowser;
-		};
-		41113C1925B33887005D6444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 411C3906259E5531009F8197;
-			remoteInfo = GitBrowser;
-		};
-		526B0D6B26C0069A00925709 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 525C687626C0039A00BA5294;
-			remoteInfo = AppStoreCardDemo;
-		};
-		52AE308626C0016A00DEC508 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 52D1944026BFFE430052B3CD;
-			remoteInfo = EyeTrackerDemo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -123,7 +62,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
 				412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -146,44 +84,17 @@
 		41113BA425B317B5005D6444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41113BA625B317B5005D6444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41113BB125B31CEC005D6444 /* ArcadiaWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadiaWidgetBundle.swift; sourceTree = "<group>"; };
-		41113C0425B33872005D6444 /* GitBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitBrowser.xcodeproj; path = GitBrowser/GitBrowser.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41113C4425B33D1D005D6444 /* Arcadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcadia.entitlements; sourceTree = "<group>"; };
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4192D3E125C93A6700946C10 /* FLEX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FLEX.xcframework; path = Carthage/Build/FLEX.xcframework; sourceTree = "<group>"; };
 		41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
-		526B0D4F26C0069A00925709 /* AppStoreCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCardTests.swift; sourceTree = "<group>"; };
-		526B0D5026C0069A00925709 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		526B0D5126C0069A00925709 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		526B0D5226C0069A00925709 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		526B0D5526C0069A00925709 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		526B0D5626C0069A00925709 /* ExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedView.swift; sourceTree = "<group>"; };
-		526B0D5726C0069A00925709 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
-		526B0D5826C0069A00925709 /* AppStoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCardView.swift; sourceTree = "<group>"; };
-		526B0D5926C0069A00925709 /* iPadWidgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadWidgetListView.swift; sourceTree = "<group>"; };
-		526B0D5F26C0069A00925709 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
-		526B0D6026C0069A00925709 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
-		526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AppStoreCardDemo.xcodeproj; sourceTree = "<group>"; };
-		526B0D6526C0069A00925709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		526B0D6726C0069A00925709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		526B0D6826C0069A00925709 /* AppStoreCardDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCardDemoApp.swift; sourceTree = "<group>"; };
-		526B0D6926C0069A00925709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52AE306126C0016A00DEC508 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		52AE306626C0016A00DEC508 /* EyeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackerTests.swift; sourceTree = "<group>"; };
-		52AE306726C0016A00DEC508 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		52AE306826C0016A00DEC508 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		52AE306926C0016A00DEC508 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		52AE306C26C0016A00DEC508 /* EyeTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackerView.swift; sourceTree = "<group>"; };
-		52AE307226C0016A00DEC508 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
-		52AE307526C0016A00DEC508 /* package.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = package.xcworkspace; sourceTree = "<group>"; };
-		52AE307926C0016A00DEC508 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
-		52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EyeTrackerDemo.xcodeproj; sourceTree = "<group>"; };
-		52AE307F26C0016A00DEC508 /* EyeTrackerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackerDemoApp.swift; sourceTree = "<group>"; };
-		52AE308026C0016A00DEC508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52AE308226C0016A00DEC508 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		52AE308326C0016A00DEC508 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		52AE308426C0016A00DEC508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528920B426C00F7900FB116C /* GitBrowserWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitBrowserWidget.swift; sourceTree = "<group>"; };
+		528920B626C00F8500FB116C /* MediumWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumWidget.swift; sourceTree = "<group>"; };
+		528920C226C0128900FB116C /* AppStoreCard */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppStoreCard; path = AppStoreCard/AppStoreCard; sourceTree = "<group>"; };
+		528920C326C0129100FB116C /* EyeTracker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EyeTracker; path = EyeTracker/EyeTracker/EyeTracker; sourceTree = "<group>"; };
+		528920C426C0129A00FB116C /* GitBrowser */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GitBrowser; path = GitBrowser/GitBrowser; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,10 +102,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526B0D6E26C006A600925709 /* AppStoreCard in Frameworks */,
-				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
-				52AE308926C0017E00DEC508 /* EyeTracker in Frameworks */,
+				528920CA26C012B000FB116C /* GitBrowser in Frameworks */,
+				528920C626C012B000FB116C /* AppStoreCard in Frameworks */,
+				528920C826C012B000FB116C /* EyeTracker in Frameworks */,
 				412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */,
+				528920BC26C0107D00FB116C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +114,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528920BE26C0109700FB116C /* Kingfisher in Frameworks */,
 				41113B9F25B317B4005D6444 /* SwiftUI.framework in Frameworks */,
+				528920CC26C012BA00FB116C /* GitBrowser in Frameworks */,
 				41113B9D25B317B4005D6444 /* WidgetKit.framework in Frameworks */,
-				41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,10 +127,10 @@
 		410E82882596315B00D4BFBF = {
 			isa = PBXGroup;
 			children = (
+				528920C126C0127500FB116C /* Packages */,
 				41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */,
 				410E82932596315B00D4BFBF /* Arcadia */,
 				41113BA025B317B4005D6444 /* ArcadiaWidgets */,
-				41113C0325B3386D005D6444 /* Submodules */,
 				410E82922596315B00D4BFBF /* Products */,
 				411C3937259E5578009F8197 /* Frameworks */,
 			);
@@ -260,34 +173,13 @@
 			children = (
 				41113BA125B317B4005D6444 /* CertExpiryWidget.swift */,
 				41113BB125B31CEC005D6444 /* ArcadiaWidgetBundle.swift */,
+				528920B426C00F7900FB116C /* GitBrowserWidget.swift */,
+				528920B626C00F8500FB116C /* MediumWidget.swift */,
 				41113BA325B317B4005D6444 /* ArcadiaWidgets.intentdefinition */,
 				41113BA425B317B5005D6444 /* Assets.xcassets */,
 				41113BA625B317B5005D6444 /* Info.plist */,
 			);
 			path = ArcadiaWidgets;
-			sourceTree = "<group>";
-		};
-		41113C0325B3386D005D6444 /* Submodules */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306026C0016A00DEC508 /* EyeTracker */,
-				526B0D4B26C0069A00925709 /* AppStoreCard */,
-				41113C0425B33872005D6444 /* GitBrowser.xcodeproj */,
-			);
-			path = Submodules;
-			sourceTree = "<group>";
-		};
-		41113C0525B33872005D6444 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41113C0E25B33872005D6444 /* GitBrowser.app */,
-				41113C1025B33872005D6444 /* GitBrowser.app */,
-				41113C1225B33872005D6444 /* GitBrowserWidgetExtension.appex */,
-				41113C1425B33872005D6444 /* WidgetIntentTarget.appex */,
-				41113C1625B33872005D6444 /* WidgetIntentTargetUI.appex */,
-				41113C1825B33872005D6444 /* GitBrowser.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		411C3937259E5578009F8197 /* Frameworks */ = {
@@ -301,313 +193,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		526B0D4B26C0069A00925709 /* AppStoreCard */ = {
+		528920C126C0127500FB116C /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				526B0D4C26C0069A00925709 /* AppStoreCard */,
-				526B0D6026C0069A00925709 /* Sample.swift */,
-				526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */,
-				526B0D6426C0069A00925709 /* AppStoreCardDemo */,
+				528920C426C0129A00FB116C /* GitBrowser */,
+				528920C326C0129100FB116C /* EyeTracker */,
+				528920C226C0128900FB116C /* AppStoreCard */,
 			);
-			path = AppStoreCard;
-			sourceTree = SOURCE_ROOT;
-		};
-		526B0D4C26C0069A00925709 /* AppStoreCard */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D4D26C0069A00925709 /* Tests */,
-				526B0D5026C0069A00925709 /* README.md */,
-				526B0D5126C0069A00925709 /* .gitignore */,
-				526B0D5226C0069A00925709 /* Package.swift */,
-				526B0D5326C0069A00925709 /* Sources */,
-				526B0D5A26C0069A00925709 /* .swiftpm */,
-			);
-			path = AppStoreCard;
-			sourceTree = "<group>";
-		};
-		526B0D4D26C0069A00925709 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D4E26C0069A00925709 /* AppStoreCardTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		526B0D4E26C0069A00925709 /* AppStoreCardTests */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D4F26C0069A00925709 /* AppStoreCardTests.swift */,
-			);
-			path = AppStoreCardTests;
-			sourceTree = "<group>";
-		};
-		526B0D5326C0069A00925709 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D5426C0069A00925709 /* AppStoreCard */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		526B0D5426C0069A00925709 /* AppStoreCard */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D5526C0069A00925709 /* CardView.swift */,
-				526B0D5626C0069A00925709 /* ExpandedView.swift */,
-				526B0D5726C0069A00925709 /* CardListView.swift */,
-				526B0D5826C0069A00925709 /* AppStoreCardView.swift */,
-				526B0D5926C0069A00925709 /* iPadWidgetListView.swift */,
-			);
-			path = AppStoreCard;
-			sourceTree = "<group>";
-		};
-		526B0D5A26C0069A00925709 /* .swiftpm */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D5B26C0069A00925709 /* xcode */,
-			);
-			path = .swiftpm;
-			sourceTree = "<group>";
-		};
-		526B0D5B26C0069A00925709 /* xcode */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D5C26C0069A00925709 /* xcuserdata */,
-			);
-			path = xcode;
-			sourceTree = "<group>";
-		};
-		526B0D5C26C0069A00925709 /* xcuserdata */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D5D26C0069A00925709 /* ravitripathi.xcuserdatad */,
-			);
-			path = xcuserdata;
-			sourceTree = "<group>";
-		};
-		526B0D5D26C0069A00925709 /* ravitripathi.xcuserdatad */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D5E26C0069A00925709 /* xcschemes */,
-			);
-			path = ravitripathi.xcuserdatad;
-			sourceTree = "<group>";
-		};
-		526B0D5E26C0069A00925709 /* xcschemes */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D5F26C0069A00925709 /* xcschememanagement.plist */,
-			);
-			path = xcschemes;
-			sourceTree = "<group>";
-		};
-		526B0D6226C0069A00925709 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D6C26C0069A00925709 /* AppStoreCardDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		526B0D6426C0069A00925709 /* AppStoreCardDemo */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D6526C0069A00925709 /* Assets.xcassets */,
-				526B0D6626C0069A00925709 /* Preview Content */,
-				526B0D6826C0069A00925709 /* AppStoreCardDemoApp.swift */,
-				526B0D6926C0069A00925709 /* Info.plist */,
-			);
-			path = AppStoreCardDemo;
-			sourceTree = "<group>";
-		};
-		526B0D6626C0069A00925709 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				526B0D6726C0069A00925709 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		52AE306026C0016A00DEC508 /* EyeTracker */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306126C0016A00DEC508 /* .gitignore */,
-				52AE306226C0016A00DEC508 /* EyeTracker */,
-			);
-			path = EyeTracker;
-			sourceTree = SOURCE_ROOT;
-		};
-		52AE306226C0016A00DEC508 /* EyeTracker */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306326C0016A00DEC508 /* EyeTracker */,
-				52AE307326C0016A00DEC508 /* .swiftpm */,
-				52AE307A26C0016A00DEC508 /* EyeTrackerDemo */,
-			);
-			path = EyeTracker;
-			sourceTree = "<group>";
-		};
-		52AE306326C0016A00DEC508 /* EyeTracker */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306426C0016A00DEC508 /* Tests */,
-				52AE306726C0016A00DEC508 /* README.md */,
-				52AE306826C0016A00DEC508 /* .gitignore */,
-				52AE306926C0016A00DEC508 /* Package.swift */,
-				52AE306A26C0016A00DEC508 /* Sources */,
-				52AE306D26C0016A00DEC508 /* .swiftpm */,
-			);
-			path = EyeTracker;
-			sourceTree = "<group>";
-		};
-		52AE306426C0016A00DEC508 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306526C0016A00DEC508 /* EyeTrackerTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		52AE306526C0016A00DEC508 /* EyeTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306626C0016A00DEC508 /* EyeTrackerTests.swift */,
-			);
-			path = EyeTrackerTests;
-			sourceTree = "<group>";
-		};
-		52AE306A26C0016A00DEC508 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306B26C0016A00DEC508 /* EyeTracker */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		52AE306B26C0016A00DEC508 /* EyeTracker */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306C26C0016A00DEC508 /* EyeTrackerView.swift */,
-			);
-			path = EyeTracker;
-			sourceTree = "<group>";
-		};
-		52AE306D26C0016A00DEC508 /* .swiftpm */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306E26C0016A00DEC508 /* xcode */,
-			);
-			path = .swiftpm;
-			sourceTree = "<group>";
-		};
-		52AE306E26C0016A00DEC508 /* xcode */ = {
-			isa = PBXGroup;
-			children = (
-				52AE306F26C0016A00DEC508 /* xcuserdata */,
-			);
-			path = xcode;
-			sourceTree = "<group>";
-		};
-		52AE306F26C0016A00DEC508 /* xcuserdata */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307026C0016A00DEC508 /* ravitripathi.xcuserdatad */,
-			);
-			path = xcuserdata;
-			sourceTree = "<group>";
-		};
-		52AE307026C0016A00DEC508 /* ravitripathi.xcuserdatad */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307126C0016A00DEC508 /* xcschemes */,
-			);
-			path = ravitripathi.xcuserdatad;
-			sourceTree = "<group>";
-		};
-		52AE307126C0016A00DEC508 /* xcschemes */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307226C0016A00DEC508 /* xcschememanagement.plist */,
-			);
-			path = xcschemes;
-			sourceTree = "<group>";
-		};
-		52AE307326C0016A00DEC508 /* .swiftpm */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307426C0016A00DEC508 /* xcode */,
-			);
-			path = .swiftpm;
-			sourceTree = "<group>";
-		};
-		52AE307426C0016A00DEC508 /* xcode */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307526C0016A00DEC508 /* package.xcworkspace */,
-				52AE307626C0016A00DEC508 /* xcuserdata */,
-			);
-			path = xcode;
-			sourceTree = "<group>";
-		};
-		52AE307626C0016A00DEC508 /* xcuserdata */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307726C0016A00DEC508 /* ravitripathi.xcuserdatad */,
-			);
-			path = xcuserdata;
-			sourceTree = "<group>";
-		};
-		52AE307726C0016A00DEC508 /* ravitripathi.xcuserdatad */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307826C0016A00DEC508 /* xcschemes */,
-			);
-			path = ravitripathi.xcuserdatad;
-			sourceTree = "<group>";
-		};
-		52AE307826C0016A00DEC508 /* xcschemes */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307926C0016A00DEC508 /* xcschememanagement.plist */,
-			);
-			path = xcschemes;
-			sourceTree = "<group>";
-		};
-		52AE307A26C0016A00DEC508 /* EyeTrackerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */,
-				52AE307E26C0016A00DEC508 /* EyeTrackerDemo */,
-			);
-			path = EyeTrackerDemo;
-			sourceTree = "<group>";
-		};
-		52AE307C26C0016A00DEC508 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52AE308726C0016A00DEC508 /* EyeTrackerDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		52AE307E26C0016A00DEC508 /* EyeTrackerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				52AE307F26C0016A00DEC508 /* EyeTrackerDemoApp.swift */,
-				52AE308026C0016A00DEC508 /* Assets.xcassets */,
-				52AE308126C0016A00DEC508 /* Preview Content */,
-				52AE308326C0016A00DEC508 /* ContentView.swift */,
-				52AE308426C0016A00DEC508 /* Info.plist */,
-			);
-			path = EyeTrackerDemo;
-			sourceTree = "<group>";
-		};
-		52AE308126C0016A00DEC508 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				52AE308226C0016A00DEC508 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -626,13 +219,14 @@
 			buildRules = (
 			);
 			dependencies = (
-				41113C1A25B33887005D6444 /* PBXTargetDependency */,
 				41113BAA25B317B5005D6444 /* PBXTargetDependency */,
 			);
 			name = Arcadia;
 			packageProductDependencies = (
-				52AE308826C0017E00DEC508 /* EyeTracker */,
-				526B0D6D26C006A600925709 /* AppStoreCard */,
+				528920BB26C0107D00FB116C /* Kingfisher */,
+				528920C526C012B000FB116C /* AppStoreCard */,
+				528920C726C012B000FB116C /* EyeTracker */,
+				528920C926C012B000FB116C /* GitBrowser */,
 			);
 			productName = Arcadia;
 			productReference = 410E82912596315B00D4BFBF /* Arcadia.app */;
@@ -651,6 +245,10 @@
 			dependencies = (
 			);
 			name = ArcadiaWidgetsExtension;
+			packageProductDependencies = (
+				528920BD26C0109700FB116C /* Kingfisher */,
+				528920CB26C012BA00FB116C /* GitBrowser */,
+			);
 			productName = ArcadiaWidgetsExtension;
 			productReference = 41113B9B25B317B4005D6444 /* ArcadiaWidgetsExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -681,22 +279,11 @@
 				Base,
 			);
 			mainGroup = 410E82882596315B00D4BFBF;
+			packageReferences = (
+				528920BA26C0107D00FB116C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 410E82922596315B00D4BFBF /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 526B0D6226C0069A00925709 /* Products */;
-					ProjectRef = 526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */;
-				},
-				{
-					ProductGroup = 52AE307C26C0016A00DEC508 /* Products */;
-					ProjectRef = 52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */;
-				},
-				{
-					ProductGroup = 41113C0525B33872005D6444 /* Products */;
-					ProjectRef = 41113C0425B33872005D6444 /* GitBrowser.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				410E82902596315B00D4BFBF /* Arcadia */,
@@ -704,65 +291,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		41113C0E25B33872005D6444 /* GitBrowser.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = GitBrowser.app;
-			remoteRef = 41113C0D25B33872005D6444 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41113C1025B33872005D6444 /* GitBrowser.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = GitBrowser.app;
-			remoteRef = 41113C0F25B33872005D6444 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41113C1225B33872005D6444 /* GitBrowserWidgetExtension.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = GitBrowserWidgetExtension.appex;
-			remoteRef = 41113C1125B33872005D6444 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41113C1425B33872005D6444 /* WidgetIntentTarget.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = WidgetIntentTarget.appex;
-			remoteRef = 41113C1325B33872005D6444 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41113C1625B33872005D6444 /* WidgetIntentTargetUI.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = WidgetIntentTargetUI.appex;
-			remoteRef = 41113C1525B33872005D6444 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41113C1825B33872005D6444 /* GitBrowser.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GitBrowser.framework;
-			remoteRef = 41113C1725B33872005D6444 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		526B0D6C26C0069A00925709 /* AppStoreCardDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = AppStoreCardDemo.app;
-			remoteRef = 526B0D6B26C0069A00925709 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52AE308726C0016A00DEC508 /* EyeTrackerDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = EyeTrackerDemo.app;
-			remoteRef = 52AE308626C0016A00DEC508 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		410E828F2596315B00D4BFBF /* Resources */ = {
@@ -789,7 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41113BA825B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */,
 				41D75F2425B35413009EB3E2 /* Storage.swift in Sources */,
 				41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */,
 				410E82972596315B00D4BFBF /* LandingView.swift in Sources */,
@@ -801,6 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528920B526C00F7900FB116C /* GitBrowserWidget.swift in Sources */,
+				528920B726C00F8500FB116C /* MediumWidget.swift in Sources */,
 				41113BB625B31DE8005D6444 /* ArcadiaWidgetBundle.swift in Sources */,
 				41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */,
 				41113BA725B317B5005D6444 /* ArcadiaWidgets.intentdefinition in Sources */,
@@ -816,11 +345,6 @@
 			isa = PBXTargetDependency;
 			target = 41113B9A25B317B4005D6444 /* ArcadiaWidgetsExtension */;
 			targetProxy = 41113BA925B317B5005D6444 /* PBXContainerItemProxy */;
-		};
-		41113C1A25B33887005D6444 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GitBrowser;
-			targetProxy = 41113C1925B33887005D6444 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1069,14 +593,43 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		528920BA26C0107D00FB116C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		526B0D6D26C006A600925709 /* AppStoreCard */ = {
+		528920BB26C0107D00FB116C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 528920BA26C0107D00FB116C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		528920BD26C0109700FB116C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 528920BA26C0107D00FB116C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		528920C526C012B000FB116C /* AppStoreCard */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AppStoreCard;
 		};
-		52AE308826C0017E00DEC508 /* EyeTracker */ = {
+		528920C726C012B000FB116C /* EyeTracker */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = EyeTracker;
+		};
+		528920C926C012B000FB116C /* GitBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GitBrowser;
+		};
+		528920CB26C012BA00FB116C /* GitBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GitBrowser;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
