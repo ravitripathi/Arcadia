@@ -24,12 +24,11 @@
 		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 		412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; };
 		412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; };
-		41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F3125B35801009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
+		526B0D6E26C006A600925709 /* AppStoreCard in Frameworks */ = {isa = PBXBuildFile; productRef = 526B0D6D26C006A600925709 /* AppStoreCard */; };
 		52AE308926C0017E00DEC508 /* EyeTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 52AE308826C0017E00DEC508 /* EyeTracker */; };
 /* End PBXBuildFile section */
 
@@ -90,26 +89,12 @@
 			remoteGlobalIDString = 411C3906259E5531009F8197;
 			remoteInfo = GitBrowser;
 		};
-		41ACD64925CE99F900555627 /* PBXContainerItemProxy */ = {
+		526B0D6B26C0069A00925709 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
+			containerPortal = 526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4177C7C725C580A000AEB31A;
-			remoteInfo = AppStoreCard;
-		};
-		41ACD67025CE9AAE00555627 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 41ACD65A25CE9A5200555627;
-			remoteInfo = AppStoreCard;
-		};
-		41ACD67625CE9ADD00555627 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 41ACD65925CE9A5200555627;
-			remoteInfo = AppStoreCard;
+			remoteGlobalIDString = 525C687626C0039A00BA5294;
+			remoteInfo = AppStoreCardDemo;
 		};
 		52AE308626C0016A00DEC508 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -140,7 +125,6 @@
 			files = (
 				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
 				412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */,
-				41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,10 +150,25 @@
 		41113C4425B33D1D005D6444 /* Arcadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcadia.entitlements; sourceTree = "<group>"; };
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4192D3E125C93A6700946C10 /* FLEX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FLEX.xcframework; path = Carthage/Build/FLEX.xcframework; sourceTree = "<group>"; };
-		41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppStoreCard.xcodeproj; path = AppStoreCard/AppStoreCard/AppStoreCard.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
+		526B0D4F26C0069A00925709 /* AppStoreCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCardTests.swift; sourceTree = "<group>"; };
+		526B0D5026C0069A00925709 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		526B0D5126C0069A00925709 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		526B0D5226C0069A00925709 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		526B0D5526C0069A00925709 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		526B0D5626C0069A00925709 /* ExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedView.swift; sourceTree = "<group>"; };
+		526B0D5726C0069A00925709 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		526B0D5826C0069A00925709 /* AppStoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCardView.swift; sourceTree = "<group>"; };
+		526B0D5926C0069A00925709 /* iPadWidgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadWidgetListView.swift; sourceTree = "<group>"; };
+		526B0D5F26C0069A00925709 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
+		526B0D6026C0069A00925709 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AppStoreCardDemo.xcodeproj; sourceTree = "<group>"; };
+		526B0D6526C0069A00925709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526B0D6726C0069A00925709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		526B0D6826C0069A00925709 /* AppStoreCardDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCardDemoApp.swift; sourceTree = "<group>"; };
+		526B0D6926C0069A00925709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52AE306126C0016A00DEC508 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		52AE306626C0016A00DEC508 /* EyeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackerTests.swift; sourceTree = "<group>"; };
 		52AE306726C0016A00DEC508 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -192,10 +191,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526B0D6E26C006A600925709 /* AppStoreCard in Frameworks */,
 				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
 				52AE308926C0017E00DEC508 /* EyeTracker in Frameworks */,
 				412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */,
-				41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				52AE306026C0016A00DEC508 /* EyeTracker */,
-				41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */,
+				526B0D4B26C0069A00925709 /* AppStoreCard */,
 				41113C0425B33872005D6444 /* GitBrowser.xcodeproj */,
 			);
 			path = Submodules;
@@ -302,13 +301,131 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		41ACD64625CE99F900555627 /* Products */ = {
+		526B0D4B26C0069A00925709 /* AppStoreCard */ = {
 			isa = PBXGroup;
 			children = (
-				41ACD64A25CE99F900555627 /* AppStoreCardApp.app */,
-				41ACD67125CE9AAE00555627 /* AppStoreCard.framework */,
+				526B0D4C26C0069A00925709 /* AppStoreCard */,
+				526B0D6026C0069A00925709 /* Sample.swift */,
+				526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */,
+				526B0D6426C0069A00925709 /* AppStoreCardDemo */,
+			);
+			path = AppStoreCard;
+			sourceTree = SOURCE_ROOT;
+		};
+		526B0D4C26C0069A00925709 /* AppStoreCard */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D4D26C0069A00925709 /* Tests */,
+				526B0D5026C0069A00925709 /* README.md */,
+				526B0D5126C0069A00925709 /* .gitignore */,
+				526B0D5226C0069A00925709 /* Package.swift */,
+				526B0D5326C0069A00925709 /* Sources */,
+				526B0D5A26C0069A00925709 /* .swiftpm */,
+			);
+			path = AppStoreCard;
+			sourceTree = "<group>";
+		};
+		526B0D4D26C0069A00925709 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D4E26C0069A00925709 /* AppStoreCardTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		526B0D4E26C0069A00925709 /* AppStoreCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D4F26C0069A00925709 /* AppStoreCardTests.swift */,
+			);
+			path = AppStoreCardTests;
+			sourceTree = "<group>";
+		};
+		526B0D5326C0069A00925709 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D5426C0069A00925709 /* AppStoreCard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		526B0D5426C0069A00925709 /* AppStoreCard */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D5526C0069A00925709 /* CardView.swift */,
+				526B0D5626C0069A00925709 /* ExpandedView.swift */,
+				526B0D5726C0069A00925709 /* CardListView.swift */,
+				526B0D5826C0069A00925709 /* AppStoreCardView.swift */,
+				526B0D5926C0069A00925709 /* iPadWidgetListView.swift */,
+			);
+			path = AppStoreCard;
+			sourceTree = "<group>";
+		};
+		526B0D5A26C0069A00925709 /* .swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D5B26C0069A00925709 /* xcode */,
+			);
+			path = .swiftpm;
+			sourceTree = "<group>";
+		};
+		526B0D5B26C0069A00925709 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D5C26C0069A00925709 /* xcuserdata */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		526B0D5C26C0069A00925709 /* xcuserdata */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D5D26C0069A00925709 /* ravitripathi.xcuserdatad */,
+			);
+			path = xcuserdata;
+			sourceTree = "<group>";
+		};
+		526B0D5D26C0069A00925709 /* ravitripathi.xcuserdatad */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D5E26C0069A00925709 /* xcschemes */,
+			);
+			path = ravitripathi.xcuserdatad;
+			sourceTree = "<group>";
+		};
+		526B0D5E26C0069A00925709 /* xcschemes */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D5F26C0069A00925709 /* xcschememanagement.plist */,
+			);
+			path = xcschemes;
+			sourceTree = "<group>";
+		};
+		526B0D6226C0069A00925709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D6C26C0069A00925709 /* AppStoreCardDemo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		526B0D6426C0069A00925709 /* AppStoreCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D6526C0069A00925709 /* Assets.xcassets */,
+				526B0D6626C0069A00925709 /* Preview Content */,
+				526B0D6826C0069A00925709 /* AppStoreCardDemoApp.swift */,
+				526B0D6926C0069A00925709 /* Info.plist */,
+			);
+			path = AppStoreCardDemo;
+			sourceTree = "<group>";
+		};
+		526B0D6626C0069A00925709 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				526B0D6726C0069A00925709 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		52AE306026C0016A00DEC508 /* EyeTracker */ = {
@@ -509,13 +626,13 @@
 			buildRules = (
 			);
 			dependencies = (
-				41ACD67725CE9ADD00555627 /* PBXTargetDependency */,
 				41113C1A25B33887005D6444 /* PBXTargetDependency */,
 				41113BAA25B317B5005D6444 /* PBXTargetDependency */,
 			);
 			name = Arcadia;
 			packageProductDependencies = (
 				52AE308826C0017E00DEC508 /* EyeTracker */,
+				526B0D6D26C006A600925709 /* AppStoreCard */,
 			);
 			productName = Arcadia;
 			productReference = 410E82912596315B00D4BFBF /* Arcadia.app */;
@@ -568,8 +685,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 41ACD64625CE99F900555627 /* Products */;
-					ProjectRef = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
+					ProductGroup = 526B0D6226C0069A00925709 /* Products */;
+					ProjectRef = 526B0D6126C0069A00925709 /* AppStoreCardDemo.xcodeproj */;
 				},
 				{
 					ProductGroup = 52AE307C26C0016A00DEC508 /* Products */;
@@ -631,18 +748,11 @@
 			remoteRef = 41113C1725B33872005D6444 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		41ACD64A25CE99F900555627 /* AppStoreCardApp.app */ = {
+		526B0D6C26C0069A00925709 /* AppStoreCardDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = AppStoreCardApp.app;
-			remoteRef = 41ACD64925CE99F900555627 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41ACD67125CE9AAE00555627 /* AppStoreCard.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AppStoreCard.framework;
-			remoteRef = 41ACD67025CE9AAE00555627 /* PBXContainerItemProxy */;
+			path = AppStoreCardDemo.app;
+			remoteRef = 526B0D6B26C0069A00925709 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		52AE308726C0016A00DEC508 /* EyeTrackerDemo.app */ = {
@@ -711,11 +821,6 @@
 			isa = PBXTargetDependency;
 			name = GitBrowser;
 			targetProxy = 41113C1925B33887005D6444 /* PBXContainerItemProxy */;
-		};
-		41ACD67725CE9ADD00555627 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AppStoreCard;
-			targetProxy = 41ACD67625CE9ADD00555627 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -965,6 +1070,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		526B0D6D26C006A600925709 /* AppStoreCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppStoreCard;
+		};
 		52AE308826C0017E00DEC508 /* EyeTracker */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = EyeTracker;
