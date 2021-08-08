@@ -24,14 +24,13 @@
 		41113C2C25B338CA005D6444 /* GitBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113C1825B33872005D6444 /* GitBrowser.framework */; };
 		412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; };
 		412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4192D3E125C93A6700946C10 /* FLEX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; };
-		41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41601D4C25B4713500F77D4E /* EyeTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; };
 		41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACD67125CE9AAE00555627 /* AppStoreCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41D75F2425B35413009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F3125B35801009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
+		52AE308926C0017E00DEC508 /* EyeTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 52AE308826C0017E00DEC508 /* EyeTracker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,27 +90,6 @@
 			remoteGlobalIDString = 411C3906259E5531009F8197;
 			remoteInfo = GitBrowser;
 		};
-		41601D2E25B46F1200F77D4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 41601D1525B46D6000F77D4E;
-			remoteInfo = EyeTracker;
-		};
-		41601D4825B4713500F77D4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 41601D3D25B4712B00F77D4E;
-			remoteInfo = EyeTracker;
-		};
-		41601D4B25B4713500F77D4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 41601D3E25B4712B00F77D4E;
-			remoteInfo = EyeTracker;
-		};
 		41ACD64925CE99F900555627 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
@@ -132,6 +110,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 41ACD65925CE9A5200555627;
 			remoteInfo = AppStoreCard;
+		};
+		52AE308626C0016A00DEC508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D1944026BFFE430052B3CD;
+			remoteInfo = EyeTrackerDemo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -154,7 +139,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				41113C2425B338BC005D6444 /* GitBrowser.framework in Embed Frameworks */,
-				41601D4F25B4715600F77D4E /* EyeTracker.framework in Embed Frameworks */,
 				412D4D6525D811E20093CC51 /* FLEX.xcframework in Embed Frameworks */,
 				41ACD67325CE9AAE00555627 /* AppStoreCard.framework in Embed Frameworks */,
 			);
@@ -181,12 +165,26 @@
 		41113C0425B33872005D6444 /* GitBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GitBrowser.xcodeproj; path = GitBrowser/GitBrowser.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41113C4425B33D1D005D6444 /* Arcadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcadia.entitlements; sourceTree = "<group>"; };
 		411C3938259E5578009F8197 /* GitBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EyeTracker.xcodeproj; path = EyeTracker/EyeTracker/EyeTracker.xcodeproj; sourceTree = SOURCE_ROOT; };
 		4192D3E125C93A6700946C10 /* FLEX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FLEX.xcframework; path = Carthage/Build/FLEX.xcframework; sourceTree = "<group>"; };
 		41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppStoreCard.xcodeproj; path = AppStoreCard/AppStoreCard/AppStoreCard.xcodeproj; sourceTree = SOURCE_ROOT; };
 		41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
+		52AE306126C0016A00DEC508 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		52AE306626C0016A00DEC508 /* EyeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackerTests.swift; sourceTree = "<group>"; };
+		52AE306726C0016A00DEC508 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52AE306826C0016A00DEC508 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		52AE306926C0016A00DEC508 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		52AE306C26C0016A00DEC508 /* EyeTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackerView.swift; sourceTree = "<group>"; };
+		52AE307226C0016A00DEC508 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
+		52AE307526C0016A00DEC508 /* package.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = package.xcworkspace; sourceTree = "<group>"; };
+		52AE307926C0016A00DEC508 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
+		52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EyeTrackerDemo.xcodeproj; sourceTree = "<group>"; };
+		52AE307F26C0016A00DEC508 /* EyeTrackerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackerDemoApp.swift; sourceTree = "<group>"; };
+		52AE308026C0016A00DEC508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52AE308226C0016A00DEC508 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52AE308326C0016A00DEC508 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52AE308426C0016A00DEC508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41113C2325B338BC005D6444 /* GitBrowser.framework in Frameworks */,
-				41601D4E25B4715600F77D4E /* EyeTracker.framework in Frameworks */,
+				52AE308926C0017E00DEC508 /* EyeTracker in Frameworks */,
 				412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */,
 				41ACD67225CE9AAE00555627 /* AppStoreCard.framework in Frameworks */,
 			);
@@ -273,8 +271,8 @@
 		41113C0325B3386D005D6444 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
+				52AE306026C0016A00DEC508 /* EyeTracker */,
 				41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */,
-				41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */,
 				41113C0425B33872005D6444 /* GitBrowser.xcodeproj */,
 			);
 			path = Submodules;
@@ -304,15 +302,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		41601D2B25B46F1200F77D4E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41601D2F25B46F1200F77D4E /* EyeTrackerApp.app */,
-				41601D4C25B4713500F77D4E /* EyeTracker.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		41ACD64625CE99F900555627 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +309,188 @@
 				41ACD67125CE9AAE00555627 /* AppStoreCard.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		52AE306026C0016A00DEC508 /* EyeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306126C0016A00DEC508 /* .gitignore */,
+				52AE306226C0016A00DEC508 /* EyeTracker */,
+			);
+			path = EyeTracker;
+			sourceTree = SOURCE_ROOT;
+		};
+		52AE306226C0016A00DEC508 /* EyeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306326C0016A00DEC508 /* EyeTracker */,
+				52AE307326C0016A00DEC508 /* .swiftpm */,
+				52AE307A26C0016A00DEC508 /* EyeTrackerDemo */,
+			);
+			path = EyeTracker;
+			sourceTree = "<group>";
+		};
+		52AE306326C0016A00DEC508 /* EyeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306426C0016A00DEC508 /* Tests */,
+				52AE306726C0016A00DEC508 /* README.md */,
+				52AE306826C0016A00DEC508 /* .gitignore */,
+				52AE306926C0016A00DEC508 /* Package.swift */,
+				52AE306A26C0016A00DEC508 /* Sources */,
+				52AE306D26C0016A00DEC508 /* .swiftpm */,
+			);
+			path = EyeTracker;
+			sourceTree = "<group>";
+		};
+		52AE306426C0016A00DEC508 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306526C0016A00DEC508 /* EyeTrackerTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		52AE306526C0016A00DEC508 /* EyeTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306626C0016A00DEC508 /* EyeTrackerTests.swift */,
+			);
+			path = EyeTrackerTests;
+			sourceTree = "<group>";
+		};
+		52AE306A26C0016A00DEC508 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306B26C0016A00DEC508 /* EyeTracker */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		52AE306B26C0016A00DEC508 /* EyeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306C26C0016A00DEC508 /* EyeTrackerView.swift */,
+			);
+			path = EyeTracker;
+			sourceTree = "<group>";
+		};
+		52AE306D26C0016A00DEC508 /* .swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306E26C0016A00DEC508 /* xcode */,
+			);
+			path = .swiftpm;
+			sourceTree = "<group>";
+		};
+		52AE306E26C0016A00DEC508 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				52AE306F26C0016A00DEC508 /* xcuserdata */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		52AE306F26C0016A00DEC508 /* xcuserdata */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307026C0016A00DEC508 /* ravitripathi.xcuserdatad */,
+			);
+			path = xcuserdata;
+			sourceTree = "<group>";
+		};
+		52AE307026C0016A00DEC508 /* ravitripathi.xcuserdatad */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307126C0016A00DEC508 /* xcschemes */,
+			);
+			path = ravitripathi.xcuserdatad;
+			sourceTree = "<group>";
+		};
+		52AE307126C0016A00DEC508 /* xcschemes */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307226C0016A00DEC508 /* xcschememanagement.plist */,
+			);
+			path = xcschemes;
+			sourceTree = "<group>";
+		};
+		52AE307326C0016A00DEC508 /* .swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307426C0016A00DEC508 /* xcode */,
+			);
+			path = .swiftpm;
+			sourceTree = "<group>";
+		};
+		52AE307426C0016A00DEC508 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307526C0016A00DEC508 /* package.xcworkspace */,
+				52AE307626C0016A00DEC508 /* xcuserdata */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		52AE307626C0016A00DEC508 /* xcuserdata */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307726C0016A00DEC508 /* ravitripathi.xcuserdatad */,
+			);
+			path = xcuserdata;
+			sourceTree = "<group>";
+		};
+		52AE307726C0016A00DEC508 /* ravitripathi.xcuserdatad */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307826C0016A00DEC508 /* xcschemes */,
+			);
+			path = ravitripathi.xcuserdatad;
+			sourceTree = "<group>";
+		};
+		52AE307826C0016A00DEC508 /* xcschemes */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307926C0016A00DEC508 /* xcschememanagement.plist */,
+			);
+			path = xcschemes;
+			sourceTree = "<group>";
+		};
+		52AE307A26C0016A00DEC508 /* EyeTrackerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */,
+				52AE307E26C0016A00DEC508 /* EyeTrackerDemo */,
+			);
+			path = EyeTrackerDemo;
+			sourceTree = "<group>";
+		};
+		52AE307C26C0016A00DEC508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52AE308726C0016A00DEC508 /* EyeTrackerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52AE307E26C0016A00DEC508 /* EyeTrackerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				52AE307F26C0016A00DEC508 /* EyeTrackerDemoApp.swift */,
+				52AE308026C0016A00DEC508 /* Assets.xcassets */,
+				52AE308126C0016A00DEC508 /* Preview Content */,
+				52AE308326C0016A00DEC508 /* ContentView.swift */,
+				52AE308426C0016A00DEC508 /* Info.plist */,
+			);
+			path = EyeTrackerDemo;
+			sourceTree = "<group>";
+		};
+		52AE308126C0016A00DEC508 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52AE308226C0016A00DEC508 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,11 +510,13 @@
 			);
 			dependencies = (
 				41ACD67725CE9ADD00555627 /* PBXTargetDependency */,
-				41601D4925B4713500F77D4E /* PBXTargetDependency */,
 				41113C1A25B33887005D6444 /* PBXTargetDependency */,
 				41113BAA25B317B5005D6444 /* PBXTargetDependency */,
 			);
 			name = Arcadia;
+			packageProductDependencies = (
+				52AE308826C0017E00DEC508 /* EyeTracker */,
+			);
 			productName = Arcadia;
 			productReference = 410E82912596315B00D4BFBF /* Arcadia.app */;
 			productType = "com.apple.product-type.application";
@@ -399,8 +572,8 @@
 					ProjectRef = 41ACD64525CE99F900555627 /* AppStoreCard.xcodeproj */;
 				},
 				{
-					ProductGroup = 41601D2B25B46F1200F77D4E /* Products */;
-					ProjectRef = 41601D2A25B46F1200F77D4E /* EyeTracker.xcodeproj */;
+					ProductGroup = 52AE307C26C0016A00DEC508 /* Products */;
+					ProjectRef = 52AE307B26C0016A00DEC508 /* EyeTrackerDemo.xcodeproj */;
 				},
 				{
 					ProductGroup = 41113C0525B33872005D6444 /* Products */;
@@ -458,20 +631,6 @@
 			remoteRef = 41113C1725B33872005D6444 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		41601D2F25B46F1200F77D4E /* EyeTrackerApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = EyeTrackerApp.app;
-			remoteRef = 41601D2E25B46F1200F77D4E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41601D4C25B4713500F77D4E /* EyeTracker.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EyeTracker.framework;
-			remoteRef = 41601D4B25B4713500F77D4E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		41ACD64A25CE99F900555627 /* AppStoreCardApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -484,6 +643,13 @@
 			fileType = wrapper.framework;
 			path = AppStoreCard.framework;
 			remoteRef = 41ACD67025CE9AAE00555627 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52AE308726C0016A00DEC508 /* EyeTrackerDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EyeTrackerDemo.app;
+			remoteRef = 52AE308626C0016A00DEC508 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -545,11 +711,6 @@
 			isa = PBXTargetDependency;
 			name = GitBrowser;
 			targetProxy = 41113C1925B33887005D6444 /* PBXContainerItemProxy */;
-		};
-		41601D4925B4713500F77D4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EyeTracker;
-			targetProxy = 41601D4825B4713500F77D4E /* PBXContainerItemProxy */;
 		};
 		41ACD67725CE9ADD00555627 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -802,6 +963,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52AE308826C0017E00DEC508 /* EyeTracker */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EyeTracker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 410E82892596315B00D4BFBF /* Project object */;
 }
