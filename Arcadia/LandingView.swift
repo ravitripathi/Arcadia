@@ -9,7 +9,9 @@ import SwiftUI
 import GitBrowser
 import EyeTracker
 import AppStoreCard
+#if canImport(FLEX)
 import FLEX
+#endif
 
 struct LandingView: View {
     var body: some View {
@@ -34,11 +36,18 @@ struct LandingView: View {
                         label: {
                             Text("Card List Views")
                         })
+                    NavigationLink(
+                        destination: FancyText(),
+                        label: {
+                            Text("Fancy Text")
+                        })
                 }
                 .listStyle(InsetGroupedListStyle())
+                #if canImport(FLEX)
                 Button("Launch Flex") {
                     FLEXManager.shared.showExplorer()
                 }
+                #endif
             }
             .navigationBarTitleDisplayMode(.large)
             .lineSpacing(0.0)
