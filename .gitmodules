@@ -7,3 +7,6 @@
 [submodule "AppStoreCard"]
 	path = AppStoreCard
 	url = https://github.com/ravitripathi/AppStoreCard.git
+[submodule "MovieBrowser"]
+	path = MovieBrowser
+	url = https://github.com/ravitripathi/MovieBrowser.git

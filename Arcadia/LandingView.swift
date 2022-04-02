@@ -9,6 +9,7 @@ import SwiftUI
 import GitBrowser
 import EyeTracker
 import AppStoreCard
+import MovieBrowser
 #if canImport(FLEX)
 import FLEX
 #endif
@@ -41,6 +42,9 @@ struct LandingView: View {
                         label: {
                             Text("Fancy Text")
                         })
+                    NavigationLink(destination: MovieBrowserView()) {
+                        Text("Movie Browser")
+                    }
                 }
                 .listStyle(InsetGroupedListStyle())
                 #if canImport(FLEX)

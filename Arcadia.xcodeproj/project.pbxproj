@@ -24,6 +24,7 @@
 		41D75F2825B35584009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F2F25B357CE009EB3E2 /* StorageBackedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */; };
 		41D75F3125B35801009EB3E2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D75F2325B35413009EB3E2 /* Storage.swift */; };
+		5200E2D527F8801E005B42C4 /* MovieBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 5200E2D427F8801E005B42C4 /* MovieBrowser */; };
 		5277E65326C95736006AC565 /* FancyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277E65226C95736006AC565 /* FancyText.swift */; };
 		527DAA8926C026210010693E /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527DAA3B26C01A3F0010693E /* Intents.framework */; };
 		527DAA8C26C026210010693E /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DAA8B26C026210010693E /* IntentHandler.swift */; };
@@ -118,6 +119,7 @@
 		41CD1AAF25D42E72006E04AE /* ArcadiaWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcadiaWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		41D75F2325B35413009EB3E2 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		41D75F2725B35584009EB3E2 /* StorageBackedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBackedKeys.swift; sourceTree = "<group>"; };
+		5200E2D327F87F59005B42C4 /* MovieBrowser */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MovieBrowser; sourceTree = "<group>"; };
 		5277E65226C95736006AC565 /* FancyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyText.swift; sourceTree = "<group>"; };
 		527DAA3B26C01A3F0010693E /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		527DAA4626C01A3F0010693E /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,7 @@
 			files = (
 				528920CA26C012B000FB116C /* GitBrowser in Frameworks */,
 				528920C626C012B000FB116C /* AppStoreCard in Frameworks */,
+				5200E2D527F8801E005B42C4 /* MovieBrowser in Frameworks */,
 				528920C826C012B000FB116C /* EyeTracker in Frameworks */,
 				412D4D6425D811E20093CC51 /* FLEX.xcframework in Frameworks */,
 				528920BC26C0107D00FB116C /* Kingfisher in Frameworks */,
@@ -283,6 +286,7 @@
 				528920C426C0129A00FB116C /* GitBrowser */,
 				528920C326C0129100FB116C /* EyeTracker */,
 				528920C226C0128900FB116C /* AppStoreCard */,
+				5200E2D327F87F59005B42C4 /* MovieBrowser */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -313,6 +317,7 @@
 				528920C526C012B000FB116C /* AppStoreCard */,
 				528920C726C012B000FB116C /* EyeTracker */,
 				528920C926C012B000FB116C /* GitBrowser */,
+				5200E2D427F8801E005B42C4 /* MovieBrowser */,
 			);
 			productName = Arcadia;
 			productReference = 410E82912596315B00D4BFBF /* Arcadia.app */;
@@ -585,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -640,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -662,7 +667,7 @@
 				DEVELOPMENT_TEAM = FABQJ9SY29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Arcadia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -687,7 +692,7 @@
 				DEVELOPMENT_TEAM = FABQJ9SY29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Arcadia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -896,6 +901,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5200E2D427F8801E005B42C4 /* MovieBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MovieBrowser;
+		};
 		528920BB26C0107D00FB116C /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 528920BA26C0107D00FB116C /* XCRemoteSwiftPackageReference "Kingfisher" */;
